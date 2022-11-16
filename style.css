@@ -1,0 +1,616 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;;
+    color: white;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 700px;
+   /* background-image: linear-gradient( 99deg,  rgba(115,18,81,1) 10.6%, rgba(28,28,28,1) 118% );;*/
+   background-image: url(./BG2.png);
+    
+}
+
+
+header button{
+   cursor: pointer;
+    background-color: #E6007E;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px #E6007E;
+    font-weight: 700;
+}
+
+
+
+.header-sessao2{
+    display: flex;
+    width: 100%;
+}
+
+.botao{
+    text-align: right;
+    max-width: 100%;
+    width: 85%;
+    margin: auto;
+}
+
+
+.sessao2-texto{
+    max-width: 100%;
+    width: 50%;
+    justify-content: center;
+}
+
+.sessao2-texto h1{
+    margin: auto;
+    max-width: 70%;
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+.sessao2-texto p{
+    margin: auto;
+    max-width: 70%;
+    font-size: 25px;
+}
+
+
+
+.sessao2-img {
+    max-width: 50%;
+}
+
+.sessao2-img img{
+    width: 90%;
+}
+
+.botao2{
+    max-width: 100%;
+    width: 85%;
+    margin: auto;
+}
+
+
+/* fim do header */
+
+/* inicio main 1*/
+
+main{
+   /* background-image: linear-gradient( 99deg,  rgba(115,18,81,1) 10.6%, rgba(28,28,28,1) 118% );;*/
+   background-color: #300C36
+    
+}
+
+
+.main-sessao1{
+    width: 90%;
+    text-align: center;
+    display: inline-block;
+}
+
+.main-sessao1 h1{
+    color: white;
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+.main-sessao1 button{
+    cursor: pointer;
+    background-color: #E6007E;
+    color: white;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px #E6007E;
+    margin: 20px 0;
+}
+
+.main-sessao1 p{
+    margin: auto;
+    max-width: 250px;
+    font-size: 20px;
+}
+
+/* -- Fim sessao 1 */
+
+/* Inicio sessao 2*/
+
+.main-sessao2-container-texto{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.main-sessao2-container-texto h1{
+    color: white;
+    max-width: 1200px;
+    font-size: 40px;
+    
+}
+
+.main-sessao2-container-texto p{
+    color: white;
+    max-width: 960px;
+    font-size: 20px;
+    padding: 25px 0;
+    
+}
+
+.main-sessao2-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-sessao2-container img{
+    width: 20%;
+    margin: 5px;
+}
+
+/* -- Fim sessao 2 -- */
+
+/* ESPECIALISTAS */
+
+.especialistas-container{
+    width: 100%;
+    text-align: center;
+}
+
+.especialistas-titulo h1{
+    color: white;
+    max-width: 1200px;
+    font-size: 40px;
+    margin: auto;
+    padding: 30px 0;
+
+}
+
+.especialistas-img img{
+    width: 20.4%;
+    
+}
+
+.esperando-container{
+    display: flex;
+    max-width: 90%;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.esperando-texto{
+    color: white;
+    width: 60%;
+}
+
+
+.esperando-texto h1{
+    color: white;
+    font-size: 60px;
+    max-width: 720px;
+}
+
+.esperando-texto p{
+    max-width: 720px;
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+.esperando-img img{
+    width: 90%;
+}
+
+.imagensdias-container{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    
+
+}
+
+.imagensdias-container div{
+    width: 33.3%;
+}
+
+.imagensdias-container img{
+    width: 70%;
+}
+
+.imagensdias-container p{
+    margin: auto;
+    max-width: 250px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.container-telas{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+
+}
+
+.telas-texto{
+    width: 60%;
+    
+
+}
+
+.telas-texto h1{
+    font-size: 55px;
+    color: white;
+    max-width: 670px;
+}
+
+.telas-texto p{
+    padding-top: 20px;
+    max-width: 670px;
+    font-size: 25px;
+    
+}
+
+.telas-img img {
+    padding-top: 20px;
+    max-width: 80%;
+}
+
+
+.container-soTexto{
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+.soTexto-texto h1{
+    max-width: 850px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: white;
+}
+
+.soTexto-texto p{
+    max-width: 850px;
+    margin: auto;
+    font-size: 22px;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width:1200px) {
+    .header-sessao2{
+        display: flex;
+        max-width: 100%;
+        margin-left: 10px;
+        flex-wrap: wrap;
+    }
+
+    .sessao2-texto{
+        max-width: 100%;
+        width: 100%;
+        text-align: left;
+    }
+
+    .sessao2-texto h1{
+        max-width: 100%;
+        font-size: 25px;
+        padding: 20px 0;
+    }
+
+    .sessao2-texto p{
+        margin: auto;
+        max-width: 100%;
+        font-size: 20px;
+    }
+
+    .sessao2-img {
+        max-width: 100%;
+        width: 80%;
+        margin: auto;
+    }
+
+    .botao2{
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .main-sessao1{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .main-sessao1 h1{
+        color: white;
+        font-size: 30px;
+        padding: 30px 0;
+    }
+    
+    .main-sessao1 button{
+        cursor: pointer;
+        background-color: #E6007E;
+        color: white;
+        padding: 15px 50px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 5px 10px #E6007E;
+        margin: 20px 0;
+    }
+    
+    .main-sessao1 p{
+        margin: auto;
+        max-width: 250px;
+        font-size: 20px;
+    }
+
+    main iframe{
+        width: 760px;
+        height: 500px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    body{
+        text-align: center;
+    }
+    .header-sessao2{
+        display: flex;
+        max-width: 100%;
+        margin-left: 10px;
+        flex-wrap: wrap;
+    }
+
+    .sessao2-texto{
+        max-width: 100%;
+        width: 100%;
+        text-align: left;
+    }
+
+    .sessao2-texto h1{
+        max-width: 100%;
+        font-size: 25px;
+        padding: 20px 0;
+    }
+
+    .sessao2-texto p{
+        margin: auto;
+        max-width: 100%;
+        font-size: 20px;
+    }
+
+    .sessao2-img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .botao2{
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* FIM DA PRIMEIRA PARTE */
+
+    /* COMEÇO MAIN SESSAO1 */
+    .main-sessao1{
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .main-sessao1 h1{
+        max-width: 100%;
+        color: white;
+        font-size: 25px;
+        padding: 30px 0;
+    }
+    
+    .main-sessao1 button{
+        cursor: pointer;
+        background-color: #E6007E;
+        color: white;
+        padding: 15px 50px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 5px 10px #E6007E;
+        margin: 20px 0;
+    }
+    
+    .main-sessao1 p{
+        margin: auto;
+        max-width: 100%;
+        font-size: 20px;
+    }
+
+    main iframe{
+        max-width: 100%;
+        width: 90%;
+        height: 300px;
+    }
+
+    /* FIM DA SESSAO COM O VIDEO*/
+
+    /* INICIO DA SESSAO COM IMAGENS DOS CURSOS*/
+    .main-sessao2-container-texto{
+        width: 100%;
+        margin-left: 0;
+        padding: 50px 0;
+    }
+    
+    .main-sessao2-container-texto h1{
+        color: white;
+        font-size: 30px;
+        
+    }
+    
+    .main-sessao2-container-texto p{
+        color: white;
+        font-size: 20px;
+        padding: 20px 0;
+        
+    }
+    
+    .main-sessao2-container{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .main-sessao2-container img{
+        width: 70%;
+        margin: 5px;
+    }
+
+    /* -- Fim sessao 2 -- */
+
+    /* ESPECIALISTAS */
+
+    .especialistas-container{
+        width: 100%;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .especialistas-titulo h1{
+        color: white;
+        max-width: 100%;
+        font-size: 30px;
+        padding: 30px 0;
+
+    }
+
+    .especialistas-img img{
+        width: 40%
+        
+    }
+
+    /* FIM DE OUTRA SESSAO */
+
+    .esperando-container{
+        display: flex;
+        max-width: 100%;
+        justify-content: space-around;
+        margin: auto;
+        padding-top: 50px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .esperando-texto{
+        color: white;
+        width: 100%;
+    }
+    
+    
+    .esperando-texto h1{
+        color: white;
+        font-size: 30px;
+        max-width: 100%;
+    }
+    
+    .esperando-texto p{
+        max-width: 100%;
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    
+    .esperando-img img{
+        margin: auto;
+        width: 90%;
+    }
+
+    .imagensdias-container{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        flex-wrap: wrap;
+    
+    }
+    
+    .imagensdias-container div{
+        width: 100%;
+    }
+
+    .imagensdias-container p{
+        margin: auto;
+        max-width: 100%;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .container-telas{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin: auto;
+        flex-wrap: wrap;
+    
+    }
+    
+    .telas-texto{
+        margin-top: 40px;
+        width: 100%;
+        
+    
+    }
+    
+    .telas-texto h1{
+        font-size: 30px;
+        color: white;
+        max-width: 100%;
+    }
+    
+    .telas-texto p{
+        padding-top: 20px;
+        max-width: 100%;
+        font-size: 20px;
+        
+    }
+    
+    .telas-img img {
+        padding-top: 20px;
+        max-width: 100%;
+    }
+
+    .container-soTexto{
+        justify-content: center;
+        text-align: center;
+        
+        
+    }
+    
+    .soTexto-texto h1{
+        max-width: 100%;
+        margin: auto;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-size: 30px;
+        color: white;
+    }
+    
+    .soTexto-texto p{
+        max-width: 100%;
+        margin: auto;
+        font-size: 20px;
+        
+}
+    
+}
